@@ -10,12 +10,21 @@
         "clean": "rimraf dist",
         "build-full": "npm run clean && npm run lint && npm run build"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/oauth-everything/oauth2-types.git"
+    },
     "keywords": [
         "oauth",
+        "oauth2",
         "typescript"
     ],
     "author": "Tyler Schrock <tschrock123@gmail.com>",
     "license": "MPL-2.0",
+    "bugs": {
+        "url": "https://github.com/oauth-everything/oauth2-types/issues"
+    },
+    "homepage": "https://github.com/oauth-everything/oauth2-types",
     "devDependencies": {
         "@types/passport-oauth2": "^1.4.8",
         "@typescript-eslint/eslint-plugin": "^2.1.0",
