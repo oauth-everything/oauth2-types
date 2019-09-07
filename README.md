@@ -11,5 +11,5 @@ npm install --save-dev @oauth-everything/oauth2-types
 
 ## Usage
 ```ts
-include * from '@oauth-everything/oauth2-types';
+import * from '@oauth-everything/oauth2-types';
 ```
