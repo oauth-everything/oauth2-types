@@ -1,0 +1,27 @@
+{
+    "name": "@oauth-everything/oauth2-types",
+    "version": "1.0.0",
+    "description": "Helper types for @oauth-everything oauth 2.0 strategies.",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "lint": "eslint ./src/**/*.ts",
+        "build": "tsc -p .",
+        "clean": "rimraf dist",
+        "build-full": "npm run clean && npm run lint && npm run build"
+    },
+    "keywords": [
+        "oauth",
+        "typescript"
+    ],
+    "author": "Tyler Schrock <tschrock123@gmail.com>",
+    "license": "MPL-2.0",
+    "devDependencies": {
+        "@types/passport-oauth2": "^1.4.8",
+        "@typescript-eslint/eslint-plugin": "^2.1.0",
+        "@typescript-eslint/parser": "^2.1.0",
+        "eslint": "^6.3.0",
+        "rimraf": "^3.0.0",
+        "typescript": "^3.6.2"
+    }
+}
