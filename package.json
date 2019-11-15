@@ -1,6 +1,6 @@
 {
     "name": "@oauth-everything/oauth2-types",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Helper types for @oauth-everything oauth 2.0 strategies.",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
