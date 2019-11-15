@@ -1,4 +1,5 @@
 import { StrategyOptions, StrategyOptionsWithRequest } from "passport-oauth2";
+import { Request } from 'express';
 
 type Optionalize<T, U extends keyof T> = Omit<T, U> & Partial<Pick<T, U>>;
 
